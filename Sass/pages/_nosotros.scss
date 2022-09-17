@@ -71,7 +71,17 @@ main{
         justify-content: center;
         margin-bottom: 2vw;
         margin-top: 2vw;
-        
+        @include screen_485{
+            max-width: 40vw;
+            min-width: 40vw;
+            max-height: 40vw;
+            min-height: 40vw;
+            margin-bottom: 50vw;
+            margin-top: 50vw;
+            display: flex;
+            align-items: center;
+            
+        }
         
     }
 
